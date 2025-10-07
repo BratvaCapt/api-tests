@@ -45,11 +45,14 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"auth": {
-					"type": "noauth"
-				},
 				"method": "POST",
-				"header": [],
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "{{api_key}}",
+						"type": "text"
+					}
+				],
 				"body": {
 					"mode": "raw",
 					"raw": "{\r\n  \"name\": \"{{name}}\",\r\n  \"job\": \"{{job}}\"\r\n}\r\n",
