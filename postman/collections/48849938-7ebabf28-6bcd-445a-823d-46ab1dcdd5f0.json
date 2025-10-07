@@ -452,7 +452,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "6e2978e2-0878-4f1b-821e-b73484da012f",
+				"id": "7dcb77b4-f7f4-40de-939f-159bf260a13e",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},
@@ -468,7 +468,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "11598bcd-51a6-4949-adc5-078c81360d6b",
+				"id": "9f9d0d76-1aa7-4d8d-991f-1d0a5590f784",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},
@@ -481,27 +481,27 @@
 	"variable": [
 		{
 			"key": "base_url",
-			"value": "",
+			"value": "https://reqres.in/api",
 			"description": "https://reqres.in/api"
 		},
 		{
 			"key": "user_id",
-			"value": "",
+			"value": "2",
 			"description": "Used in GET/PUT/PATCH/DELETE"
 		},
 		{
 			"key": "name",
-			"value": "",
+			"value": "Ewin",
 			"description": "Used for POST/PUT/PATCH"
 		},
 		{
 			"key": "job",
-			"value": "",
+			"value": "QA Engineer",
 			"description": "Used for POST/PUT/PATCH"
 		},
 		{
 			"key": "api_key",
-			"value": ""
+			"value": "reqres-free-v1"
 		}
 	]
 }
