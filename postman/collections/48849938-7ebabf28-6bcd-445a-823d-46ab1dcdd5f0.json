@@ -45,11 +45,14 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"auth": {
-					"type": "noauth"
-				},
 				"method": "POST",
-				"header": [],
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "{{api_key}}",
+						"type": "text"
+					}
+				],
 				"body": {
 					"mode": "raw",
 					"raw": "{\r\n  \"name\": \"{{name}}\",\r\n  \"job\": \"{{job}}\"\r\n}\r\n",
@@ -449,7 +452,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "2464287c-f0b1-4eeb-a5fe-449e8af1ad73",
+				"id": "6e2978e2-0878-4f1b-821e-b73484da012f",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},
@@ -465,7 +468,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "ca1c785d-d6fa-4890-a260-9e87db0466fa",
+				"id": "11598bcd-51a6-4949-adc5-078c81360d6b",
 				"type": "text/javascript",
 				"packages": {},
 				"requests": {},
