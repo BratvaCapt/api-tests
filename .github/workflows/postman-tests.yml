@@ -28,7 +28,9 @@ jobs:
             --environment "4cc0bae5-c233-450c-93d1-ea138a761eb4" \
             --reporters cli,json \
             --reporter-json-export results.json
-
+        
+         postman list environments
+         
       - name: Upload Test Report
         uses: actions/upload-artifact@v4
         with:
