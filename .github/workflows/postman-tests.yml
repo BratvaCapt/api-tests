@@ -1,5 +1,4 @@
 name: Run Postman API Tests
-
 on:
   push:
     branches: [ "dev" ]
